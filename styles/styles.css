@@ -1,6 +1,11 @@
 /* Add a black background color to the top navigation */
 body{
   font-family: helvetica;
+  color: grey;
+}
+h1{
+  text-align: center;
+  color: grey;
 }
 .topnav {
     background-color:white;
@@ -29,7 +34,7 @@ body{
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color:pink;
+    background-color:rgb(255, 120, 190);
     color: white;
     text-decoration: none;
   }
@@ -77,7 +82,7 @@ body{
 
   .need{
     border-style: solid;
-    border-color: pink;
+    border-color: rgb(255, 120, 190);
     border-radius: 10px;
     border-width: 2px;
     float: left;
@@ -88,7 +93,7 @@ body{
   }
   .can{ 
     border-style: solid;
-    border-color: pink;
+    border-color: rgb(255, 120, 190);
     border-radius: 10px;
     border-width: 2px;
     float: left;
@@ -99,11 +104,55 @@ body{
   }
 
   .viz{
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
-    object-fit: fill;
+    object-fit: cover;
   }
 
-  nav {
-    height: 84px;
+  .r4-image{
+    width: 300px;
+    height: auto;
+    padding: 10px 100px;
+  }
+  .review4{
+    display: flex;
+    justify-content: right;
+    padding: 100px 300px 10px 300px;
+  }
+
+  .r3-image{
+    width: 400px;
+    height: auto;
+    padding: 10px 100px;
+  }
+  .review3{
+    display: flex;
+    justify-content: left;
+    padding: 100px 300px 10px 300px;
+  }
+  .r2-image{
+    width: 300px;
+    height: auto;
+    padding: 10px 100px;
+  }
+  .review2{
+    display: flex;
+    justify-content: right;
+    padding: 100px 200px 10px 100px;
+  }
+
+  .r1-image{
+    width: 300px;
+    height: auto;
+    padding: 10px 100px;
+  }
+  .review1{
+    display: flex;
+    width: 80%;
+    justify-content: right;
+    padding: 100px 300px 10px 300px;
+  }
+
+  footer{
+    padding-left: 200px;
   }
